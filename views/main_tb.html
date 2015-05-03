@@ -1,0 +1,463 @@
+<!doctype html>
+<html>
+
+    <head>
+
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="stylesheet" href="/css/swiper.min.css">
+        <link rel="stylesheet" href="/css/bootstrap.min.css">
+        <link rel="stylesheet" href="/css/bootstrap-theme.css">
+        <link rel="stylesheet" href="/css/main.css">
+        <link rel="stylesheet" href="/css/sweetalert.css">
+
+        <title>Babaiola Survey</title>
+
+    </head>
+
+    <body>
+
+
+        <!-- Slider main container -->
+        <div class="swiper-container">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide">
+                    <img src="/img/tablet/roma_pc.jpg">
+                    <form class="form-horizontal" method="post" id="form0">
+                        <fieldset>
+                            <!-- Form Name -->
+                            <legend>Roma</legend>
+                            <input type="hidden" name="city" value="Roma">
+
+                            <div class="tag-id"></div><br><div><button type="button" class='nextslide redslide' onclick="uncheck('#form0')">canc</button><button type="button" class='nextslide' onclick='mySwiper.slideNext()'>next</button></div>
+                        </fieldset>
+                    </form>
+                </div>
+                <div class="swiper-slide">
+                    <img src="/img/tablet/milano_pc.jpg">
+                    <form class="form-horizontal" method="post" id="form1">
+                        <fieldset>
+                            <!-- Form Name -->
+                            <legend>Milano</legend>
+                            <input type="hidden" name="city" value="Milano">
+
+                            <div class="tag-id"></div><br><div><button type="button" class='nextslide redslide' onclick="uncheck('#form1')">canc</button><button type="button" class='nextslide' onclick='mySwiper.slideNext()'>next</button></div>
+                        </fieldset>
+                    </form>
+                </div>
+                <div class="swiper-slide">
+                    <img src="/img/tablet/venezia_pc.jpg">
+                    <form class="form-horizontal" method="post" id="form2">
+                        <fieldset>
+                            <!-- Form Name -->
+                            <legend>Venezia</legend>
+                            <input type="hidden" name="city" value="Venezia">
+
+                            <div class="tag-id"></div><br><div><button type="button" class='nextslide redslide' onclick="uncheck('#form2')">canc</button><button type="button" class='nextslide' onclick='mySwiper.slideNext()'>next</button></div>
+                        </fieldset>
+                    </form>
+                </div>
+                <div class="swiper-slide">
+                    <img src="/img/tablet/catania_pc.jpg">
+                    <form class="form-horizontal" method="post" id="form3">
+                        <fieldset>
+                            <!-- Form Name -->
+                            <legend>Catania</legend>
+                            <input type="hidden" name="city" value="Catania">
+
+                            <div class="tag-id"></div><br><div><button type="button" class='nextslide redslide' onclick="uncheck('#form3')">canc</button><button type="button" class='nextslide' onclick='mySwiper.slideNext()'>next</button></div>
+                        </fieldset>
+                    </form>
+                </div>
+                <div class="swiper-slide">
+                    <img src="/img/tablet/bologna_pc.jpg">
+                    <form class="form-horizontal" method="post" id="form4">
+                        <fieldset>
+                            <!-- Form Name -->
+                            <legend>Bologna</legend>
+                            <input type="hidden" name="city" value="Bologna">
+
+                            <div class="tag-id"></div><br><div><button type="button" class='nextslide redslide' onclick="uncheck('#form4')">canc</button><button type="button" class='nextslide' onclick='mySwiper.slideNext()'>next</button></div>
+                        </fieldset>
+                    </form>
+                </div>
+                <div class="swiper-slide">
+                    <img src="/img/tablet/napoli_pc.jpg">
+                    <form class="form-horizontal" method="post" id="form5">
+                        <fieldset>
+                            <!-- Form Name -->
+                            <legend>Napoli</legend>
+                            <input type="hidden" name="city" value="Napoli">
+
+                            <div class="tag-id"></div><br><div><button type="button" class='nextslide redslide' onclick="uncheck('#form5')">canc</button><button type="button" class='nextslide' onclick='mySwiper.slideNext()'>next</button></div>
+                        </fieldset>
+                    </form>
+                </div>
+                <div class="swiper-slide">
+                    <img src="/img/tablet/pisa_pc.jpg">
+                    <form class="form-horizontal" method="post" id="form6">
+                        <fieldset>
+                            <!-- Form Name -->
+                            <legend>Pisa</legend>
+                            <input type="hidden" name="city" value="Pisa">
+
+                            <div class="tag-id"></div><br><div><button type="button" class='nextslide redslide' onclick="uncheck('#form6')">canc</button><button type="button" class='nextslide' onclick='mySwiper.slideNext()'>next</button></div>
+                        </fieldset>
+                    </form>
+                </div>
+                <div class="swiper-slide">
+                    <img src="/img/tablet/palermo_pc.jpg">
+                    <form class="form-horizontal" method="post" id="form7">
+                        <fieldset>
+                            <!-- Form Name -->
+                            <legend>Palermo</legend>
+                            <input type="hidden" name="city" value="Palermo">
+
+                            <div class="tag-id"></div><br><div><button type="button" class='nextslide redslide' onclick="uncheck('#form7')">canc</button><button type="button" class='nextslide' onclick='mySwiper.slideNext()'>next</button></div>
+                        </fieldset>
+                    </form>
+                </div>
+                <div class="swiper-slide">
+                    <img src="/img/tablet/bari_pc.jpg">
+                    <form class="form-horizontal" method="post" id="form8">
+                        <fieldset>
+                            <!-- Form Name -->
+                            <legend>Bari</legend>
+                            <input type="hidden" name="city" value="Bari">
+
+                            <div class="tag-id"></div><br><div><button type="button" class='nextslide redslide' onclick="uncheck('#form8')">canc</button><button type="button" class='nextslide' onclick='mySwiper.slideNext()'>next</button></div>
+                        </fieldset>
+                    </form>
+                </div>
+                <div class="swiper-slide">
+                    <img src="/img/tablet/cagliari_pc.jpg">
+                    <form class="form-horizontal" method="post" id="form9">
+                        <fieldset>
+                            <!-- Form Name -->
+                            <legend>Cagliari</legend>
+                            <input type="hidden" name="city" value="Cagliari">
+
+                            <div class="tag-id"></div><br><div><button type="button" class='nextslide redslide' onclick="uncheck('#form9')">canc</button><button type="button" class='nextslide' onclick='mySwiper.slideNext()'>next</button></div>
+                        </fieldset>
+                    </form>
+                </div>
+                <div class="swiper-slide">
+                    <img src="/img/tablet/torino_pc.jpg">
+                    <form class="form-horizontal" method="post" id="form10">
+                        <fieldset>
+                            <!-- Form Name -->
+                            <legend>Torino</legend>
+                            <input type="hidden" name="city" value="Torino">
+
+                            <div class="tag-id"></div><br><div><button type="button" class='nextslide redslide' onclick="uncheck('#form10')">canc</button><button type="button" class='nextslide' onclick='mySwiper.slideNext()'>next</button></div>
+                        </fieldset>
+                    </form>
+                </div>
+                <div class="swiper-slide">
+                    <img src="/img/tablet/verona_pc.jpg">
+                    <form class="form-horizontal" method="post" id="form11">
+                        <fieldset>
+                            <!-- Form Name -->
+                            <legend>Verona</legend>
+                            <input type="hidden" name="city" value="Verona">
+
+                            <div class="tag-id"></div><br><div><button type="button" class='nextslide redslide' onclick="uncheck('#form11')">canc</button><button type="button" class='nextslide' onclick='mySwiper.slideNext()'>next</button></div>
+                        </fieldset>
+                    </form>
+                </div>
+
+                <div class="swiper-slide">
+                    <img src="/img/tablet/catanzaro_pc.jpg">
+                    <form class="form-horizontal" method="post" id="form12">
+                        <fieldset>
+                            <!-- Form Name -->
+                            <legend>Catanzaro</legend>
+                            <input type="hidden" name="city" value="Catanzaro">
+
+                            <div class="tag-id"></div><br><div><button type="button" class='nextslide redslide' onclick="uncheck('#form12')">canc</button><button type="button" class='nextslide' onclick='mySwiper.slideNext()'>next</button></div>
+                        </fieldset>
+                    </form>
+                </div>
+                <div class="swiper-slide">
+                    <img src="/img/tablet/firenze_pc.jpg">
+                    <form class="form-horizontal" method="post" id="form13">
+                        <fieldset>
+                            <!-- Form Name -->
+                            <legend>Firenze</legend>
+                            <input type="hidden" name="city" value="Firenze">
+
+                            <div class="tag-id"></div><br><div><button type="button" class='nextslide redslide' onclick="uncheck('#form13')">canc</button><button type="button" class='nextslide' onclick='mySwiper.slideNext()'>next</button></div>
+                        </fieldset>
+                    </form>
+                </div>
+                <div class="swiper-slide">
+                    <img src="/img/tablet/brindisi_pc.jpg">
+                    <form class="form-horizontal" method="post" id="form14">
+                        <fieldset>
+                            <!-- Form Name -->
+                            <legend>Brindisi</legend>
+                            <input type="hidden" name="city" value="Brindisi">
+
+                            <div class="tag-id"></div><br><div><button type="button" class='nextslide redslide' onclick="uncheck('#form14')">canc</button><button type="button" class='nextslide' onclick='mySwiper.slideNext()'>next</button></div>
+                        </fieldset>
+                    </form>
+                </div>
+                <div class="swiper-slide">
+                    <img src="/img/tablet/olbia_pc.jpg">
+                    <form class="form-horizontal" method="post" id="form15">
+                        <fieldset>
+                            <!-- Form Name -->
+                            <legend>Olbia</legend>
+                            <input type="hidden" name="city" value="Olbia">
+
+                            <div class="tag-id"></div><br><div><button type="button" class='nextslide redslide' onclick="uncheck('#form15')">canc</button><button type="button" class='nextslide' onclick='mySwiper.slideNext()'>next</button></div>
+                        </fieldset>
+                    </form>
+                </div>
+                <div class="swiper-slide">
+                    <img src="/img/tablet/alghero_pc.jpg">
+                    <form class="form-horizontal" method="post" id="form16">
+                        <fieldset>
+                            <!-- Form Name -->
+                            <legend>Alghero</legend>
+                            <input type="hidden" name="city" value="Alghero">
+
+                            <div class="tag-id"></div><br><div><button type="button" class='nextslide redslide' onclick="uncheck('#form16')">canc</button><button type="button" class='nextslide' onclick='mySwiper.slideNext()'>next</button></div>
+                        </fieldset>
+                    </form>
+                </div>
+                <div class="swiper-slide">
+                    <img src="/img/tablet/trapani_pc.jpg">
+                    <form class="form-horizontal" method="post" id="form17">
+                        <fieldset>
+                            <!-- Form Name -->
+                            <legend>Trapani</legend>
+                            <input type="hidden" name="city" value="Trapani">
+
+                            <div class="tag-id"></div><br><div><button type="button" class='nextslide redslide' onclick="uncheck('#form17')">canc</button><button type="button" class='nextslide' onclick='mySwiper.slideNext()'>next</button></div>
+                        </fieldset>
+                    </form>
+                </div>
+                <div class="swiper-slide">
+                    <img src="/img/tablet/genova_pc.jpg">
+                    <form class="form-horizontal" method="post" id="form18">
+                        <fieldset>
+                            <!-- Form Name -->
+                            <legend>Genova</legend>
+                            <input type="hidden" name="city" value="Genova">
+
+                            <div class="tag-id"></div><br><div><button type="button" class='nextslide redslide' onclick="uncheck('#form18')">canc</button><button type="button" class='nextslide' onclick='mySwiper.slideNext()'>next</button></div>
+                        </fieldset>
+                    </form>
+                </div>
+                <div class="swiper-slide">
+                    <img src="/img/tablet/trieste_pc.jpg">
+                    <form class="form-horizontal" method="post" id="form19">
+                        <fieldset>
+                            <!-- Form Name -->
+                            <legend>Trieste</legend>
+                            <input type="hidden" name="city" value="Trieste">
+
+                            <div class="tag-id"></div><br><div><button type="button" class='nextslide redslide' onclick="uncheck('#form19')">canc</button><button type="button" class='nextslide' onclick='mySwiper.slideNext()'>next</button></div>
+                        </fieldset>
+                    </form>
+                </div>
+                <div class="swiper-slide">
+                    <img src="/img/tablet/pescara_pc.jpg">
+                    <form class="form-horizontal" method="post" id="form20">
+                        <fieldset>
+                            <!-- Form Name -->
+                            <legend>Pescara</legend>
+                            <input type="hidden" name="city" value="Pescara">
+
+                            <div class="tag-id"></div><br><div><button type="button" class='nextslide redslide' onclick="uncheck('#form20')">canc</button><button type="button" class='nextslide' onclick='mySwiper.slideNext()'>next</button></div>
+                        </fieldset>
+                    </form>
+                </div>
+                <div class="swiper-slide">
+                    <img src="/img/tablet/reggiocalabria_pc.jpg">
+                    <form class="form-horizontal" method="post" id="form21">
+                        <fieldset>
+                            <!-- Form Name -->
+                            <legend>Reggio Calabria</legend>
+                            <input type="hidden" name="city" value="Reggio Calabria">
+
+                            <div class="tag-id"></div><br><div><button type="button" class='nextslide redslide' onclick="uncheck('#form21')">canc</button><button type="button" class='nextslide' onclick='mySwiper.slideNext()'>next</button></div>
+                        </fieldset>
+                    </form>
+                </div>
+                <div class="swiper-slide">
+                    <img src="/img/tablet/ancona_pc.jpg">
+                    <form class="form-horizontal" method="post" id="form22">
+                        <fieldset>
+                            <!-- Form Name -->
+                            <legend>Ancona</legend>
+                            <input type="hidden" name="city" value="Ancona">
+
+                            <div class="tag-id"></div><br><div><button type="button" class='nextslide redslide' onclick="uncheck('#form22')">canc</button><button type="button" class='nextslide' onclick='mySwiper.slideNext()'>next</button></div>
+                        </fieldset>
+                    </form>
+                </div>
+                <div class="swiper-slide">
+                    <img src="/img/tablet/rimini_pc.jpg">
+                    <form class="form-horizontal" method="post" id="form23">
+                        <fieldset>
+                            <!-- Form Name -->
+                            <legend>Rimini</legend>
+                            <input type="hidden" name="city" value="Rimini">
+
+                            <div class="tag-id"></div><br><div><button type="button" class='nextslide redslide' onclick="uncheck('#form23')">canc</button><button type="button" class='nextslide' onclick='mySwiper.slideNext()'>next</button></div>
+                        </fieldset>
+                    </form>
+                </div>
+                <div class="swiper-slide">
+                    <img src="/img/tablet/ragusa_pc.jpg">
+                    <form class="form-horizontal" method="post" id="form24">
+                        <fieldset>
+                            <!-- Form Name -->
+                            <legend>Ragusa</legend>
+                            <input type="hidden" name="city" value="Ragusa">
+
+                            <div class="tag-id"></div><br><div><button type="button" class='nextslide redslide' onclick="uncheck('#form24')">canc</button><button type="button" class='nextslide' onclick='mySwiper.slideNext()'>next</button></div>
+                        </fieldset>
+                    </form>
+                </div>
+                <div class="swiper-slide">
+                    <img src="/img/tablet/perugia_pc.jpg">
+                    <form class="form-horizontal" method="post" id="form25">
+                        <fieldset>
+                            <!-- Form Name -->
+                            <legend>Perugia</legend>
+                            <input type="hidden" name="city" value="Perugia">
+
+                            <div class="tag-id"></div><br><div><button type="button" class='nextslide redslide' onclick="uncheck('#form25')">canc</button><button type="button" class='nextslide' onclick='mySwiper.slideNext()'>next</button></div>
+                        </fieldset>
+                    </form>
+                </div>
+                <div class="swiper-slide">
+                    <img src="/img/tablet/parma_pc.jpg">
+                    <form class="form-horizontal" method="post" id="form26">
+                        <fieldset>
+                            <!-- Form Name -->
+                            <legend>Parma</legend>
+                            <input type="hidden" name="city" value="Parma">
+
+                            <div class="tag-id"></div><br><div><button type="button" class='nextslide redslide' onclick="uncheck('#form26')">canc</button><button type="button" class='nextslide' onclick='mySwiper.slideNext()'>next</button></div>
+                        </fieldset>
+                    </form>
+                </div>
+                <div class="swiper-slide">
+                    <img src="/img/tablet/pantelleria_pc.jpg">
+                    <form class="form-horizontal" method="post" id="form27">
+                        <fieldset>
+                            <!-- Form Name -->
+                            <legend>Pantelleria</legend>
+                            <input type="hidden" name="city" value="Pantelleria">
+
+                            <div class="tag-id"></div><br><div><button type="button" class='nextslide redslide' onclick="uncheck('#form27')">canc</button><button type="button" class='nextslide' onclick='mySwiper.slideNext()'>next</button></div>
+                        </fieldset>
+                    </form>
+                </div>
+                <div class="swiper-slide">
+                    <img src="/img/tablet/crotone_pc.jpg">
+                    <form class="form-horizontal" method="post" id="form28">
+                        <fieldset>
+                            <!-- Form Name -->
+                            <legend>Crotone</legend>
+                            <input type="hidden" name="city" value="Crotone">
+
+                            <div class="tag-id"></div><br><div><button type="button" class='nextslide redslide' onclick="uncheck('#form28')">canc</button><button type="button" class='nextslide' onclick='mySwiper.slideNext()'>next</button></div>
+                        </fieldset>
+                    </form>
+                </div>
+                <div class="swiper-slide">
+                    <img src="/img/tablet/bolzano_pc.jpg">
+                    <form class="form-horizontal" method="post" id="form29">
+                        <fieldset>
+                            <!-- Form Name -->
+                            <legend>Bolzano</legend>
+                            <input type="hidden" name="city" value="Bolzano">
+
+                            <div class="tag-id"></div><br><div><button type="button" class='nextslide redslide' onclick="uncheck('#form29')">canc</button><button type="button" class='nextslide' onclick='mySwiper.slideNext()'>next</button></div>
+                        </fieldset>
+                    </form>
+                </div>
+                <div class="swiper-slide">
+                    <img src="/img/tablet/brescia_pc.jpg">
+                    <form class="form-horizontal" method="post" id="form30">
+                        <fieldset>
+                            <!-- Form Name -->
+                            <legend>Brescia</legend>
+                            <input type="hidden" name="city" value="Brescia">
+
+                            <div class="tag-id"></div><br><div><button type="button" class='nextslide redslide' onclick="uncheck('#form30')">canc</button><button type="button" class='nextslide' onclick='mySwiper.slideNext()'>next</button></div>
+                        </fieldset>
+                    </form>
+                </div>
+                <div class="swiper-slide">
+                    <img src="/img/tablet/foggia_pc.jpg">
+                    <form class="form-horizontal" method="post" id="form31">
+                        <fieldset>
+                            <!-- Form Name -->
+                            <legend>Foggia</legend>
+                            <input type="hidden" name="city" value="Foggia">
+
+                            <div class="tag-id"></div><br><div><button type="button" class='nextslide redslide' onclick="uncheck('#form31')">canc</button><button type="button" class='nextslide' onclick='mySwiper.slideNext()'>next</button></div>
+                        </fieldset>
+                    </form>
+                </div>
+                <div class="swiper-slide">
+                    <img src="/img/tablet/grosseto_pc.jpg">
+                    <form class="form-horizontal" method="post" id="form32">
+                        <fieldset>
+                            <!-- Form Name -->
+                            <legend>Grosseto</legend>
+                            <input type="hidden" name="city" value="Grosseto">
+
+                            <div class="tag-id"></div><br><div><button type="button" class='nextslide redslide' onclick="uncheck('#form32')">canc</button><button type="button" class='nextslide' onclick='mySwiper.slideNext()'>next</button></div>
+                        </fieldset>
+                    </form>
+                </div>
+                <div class="swiper-slide">
+                    <img src="/img/tablet/salerno_pc.jpg">
+                    <form class="form-horizontal" method="post" id="form33">
+                        <fieldset>
+                            <!-- Form Name -->
+                            <legend>Salerno</legend>
+                            <input type="hidden" name="city" value="Salerno">
+
+                            <div class="tag-id"></div><br><div><button type="button" class='nextslide redslide' onclick="uncheck('#form33')">canc</button><button type="button" class='nextslide' onclick='mySwiper.slideNext()'>next</button></div>
+                        </fieldset>
+                    </form>
+                </div>
+                <div class="swiper-slide">
+                    End
+                </div>
+
+            </div>
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+
+
+            <!-- If we need scrollbar -->
+            <div class="swiper-scrollbar"></div>
+        </div>
+
+
+
+        <!--   <script src="/js/jquery.min.js"></script> -->
+        <script src="/js/jquery.min.js"></script>
+        <script src="/js/bootstrap.min.js"></script>
+        <script src="/js/swiper.min.js"></script>
+        <script src="/js/slider.js"></script>
+        <script src="/js/sweetalert.min.js"></script>
+
+    </body>
+
+</html>
