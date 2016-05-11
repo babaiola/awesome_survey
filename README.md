@@ -1,5 +1,5 @@
 # awesome_survey
-Awsome Survey is a fully responsive survey writed in html5.
+Awsome Survey is a fully responsive survey writen in html5.
 
 Features:
   - Swipe between questions
